@@ -1,0 +1,99 @@
+body {
+            background-color: rgb(36, 65, 65);
+            font-family: Poppins;
+            color: white;
+        }
+        .logo {
+            height: 100vh;
+            width: 230px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            padding-top: 20px;
+        }
+        .logo a {
+            padding: 15px 10px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+        .logo span {
+            margin-right: 10px;
+        }
+        .logo a i {
+            margin-right: 10px;
+        }
+        .logo a:hover {
+           animation: glow 1s ease-in-out infinite alternate;
+        }
+        .logo img {
+            height: 100px;
+            width: 230px;
+            margin-left: 0;
+            margin-bottom: 40px;
+        }
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 10px #00FF00;
+            }
+            to {
+                box-shadow: 0 0 20px #00FF00, 0 0 30px #00FF00;
+            }
+        }
+        .container1 {
+            margin-left: 100px; /* Adjusted for sidebar width */
+            padding: 20px;
+        }
+        .table {
+            background-color: white;
+        }
+        /* Style for table cells */
+        .table td, .table th {
+            color: black; /* Default color for table cells */
+        }
+        /* Style for the last column */
+        .table td:last-child, .table th:last-child{
+            color: white; /* White text color for the last column */
+            background-color: black; /* Black background color for the last column */
+        }
+        table{
+            margin-left: -15px;
+            margin-top: 90px;
+            border-radius: 10px;
+
+        }
+        a.active {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+#searchResults {
+    display: none;
+}
+
+#searchResults.show {
+    display: block;
+}
+.dash img{
+    padding-left: 30px;
+    width: 300px;
+    margin-left: -50px;
+}
+.dash{
+    background-color: black;
+   width: 171vh;
+    margin-top: -20px;
+    margin-left: -39px;
+    position: fixed;
+}
+.abouts{
+    
+    background-color: black;
+}
+.abouts img{
+    height: 90px;
+    width: 250px;
+    margin-left: 220px;
+}
